@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <title>GymMate</title>
+    <meta name="theme-color" content="#121212">
+    <meta name="description" content="Your personal gym workout tracker">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="GymMate">
+    <link rel="icon" href="/GymMate/favicon.ico" />
+    <link rel="apple-touch-icon" href="/GymMate/icon-192.png" />
+    <link rel="manifest" href="/GymMate/manifest.json" />
+    <style id="expo-reset">
+      html, body { height: 100%; margin: 0; padding: 0; background-color: #121212; }
+      body { overflow: hidden; }
+      #root { display: flex; height: 100%; flex: 1; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/GymMate/_expo/static/js/web/index-4ffb5b49e371012f42e0b7d7f5b8c723.js" defer></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/GymMate/sw.js');
+        });
+      }
+    </script>
+  </body>
+</html>
